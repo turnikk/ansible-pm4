@@ -1,5 +1,5 @@
 ---
-- hosts: aws
+- hosts: oci
   sudo: yes
   vars_files:
     - ./group_vars/vars.yml

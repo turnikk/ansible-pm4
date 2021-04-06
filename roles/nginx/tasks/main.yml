@@ -1,9 +1,10 @@
 ---
-- name: Remove Apache
-  apt:
-    name: apache2
-    state: absent
-    #workaround Todo fix it
+#- name: Remove Apache
+#  apt:
+#    name: apache2
+#    state: absent
+#    #workaround Todo fix it
+
 - name: Remove useless dir
   shell: "rm -rf /var/www/html/"
   tags:
